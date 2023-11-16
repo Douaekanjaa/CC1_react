@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Nav from './compenants/nav/Nav';
+import TodoList from './compenants/Todolist/TodoList';
 
+import ErrorComponent from './compenants/ErrorComponent'; 
+import Firstpage from './compenants/firstpage/firstpage'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <div className="App">
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Firstpage/>} />
+          {/* <Route path="/Calculatrice" element={<Calculatrice />} /> */}
+          <Route path="/home" element={<Firstpage />} />
+          <Route path="/todolist" element={<TodoList />} />
+         {/*  <Route path="/weather" element={<Weather />} />
+          <Route path="/slider" element={<Slider />} /> */}
+
+          <Route path="*" element={<ErrorComponent />} />
+        </Routes>
+        
+      </div>
+    
   );
 }
 

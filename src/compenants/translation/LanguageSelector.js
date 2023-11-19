@@ -23,7 +23,7 @@ const LanguageSelector = ({ currentLanguage, onLanguageChange }) => {
                     style={{ border: 'none', background: 'none', cursor: 'pointer' }}
                     onClick={() => onLanguageChange('fr')}
             >
-                <img src={frFlag} alt="French Flag" style={{ width: '40px', height: '40px' }} />
+                <img src={frFlag} alt="French Flag" style={{ width: '35px', height: '35px' }} />
             </button>
         </Col>
       

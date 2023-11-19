@@ -20,7 +20,7 @@ export default function Firstpage() {
       />
 
       <Row className={`justify-content-center mb-3 p-md-3 p-2 h-100 page1${darkMode ? ' dark-mode' : ''}`}>
-        {/* Card 1 */}
+      
         <Col xs={12} md={4} className='my-md-3 my-1 mx-md-3'>
           <Card className='shadow'>
             <Card.Body>
@@ -31,7 +31,6 @@ export default function Firstpage() {
           </Card>
         </Col>
 
-        {/* Card 2 */}
         <Col xs={12} md={4} className='my-md-3 my-1 mx-md-3'>
           <Card className='shadow'>
             <Card.Body>
@@ -42,7 +41,7 @@ export default function Firstpage() {
           </Card>
         </Col>
 
-        {/* Card 3 */}
+
         <Col xs={12} md={4} className='my-md-3 mx-md-3 my-1'>
           <Card className='shadow'>
             <Card.Body>
@@ -53,7 +52,7 @@ export default function Firstpage() {
           </Card>
         </Col>
 
-        {/* Card 4 */}
+
         <Col xs={12} md={4} className='my-md-3 my-1 mx-md-3'>
           <Card className='shadow'>
             <Card.Body>

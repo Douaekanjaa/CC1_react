@@ -1,0 +1,23 @@
+
+.btn {
+    background-color: #ef93e4 !important;
+    border: 2.5px solid #E207B9 !important;
+    background-color: #277088de;
+    color: #E207B9 !important;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+  }
+  .btn.blue {
+    background-color: #A4BCFF !important;
+    border: 2.5px solid #134aef !important;
+    background-color: #277088de;
+    color: #E207B9 !important;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    transform: scale(0.9);
+  }

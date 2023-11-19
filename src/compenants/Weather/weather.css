@@ -149,6 +149,7 @@
 .dark-mode{
   background-color: #34495e !important;
   color: white;
+  
 }
 
 .dark-mode .temp {
@@ -163,6 +164,7 @@
 
 .dark-mode .bottom {
   background-color: #34495e;
+  
 }
 
 .dark-mode .additional-info p {
@@ -198,6 +200,10 @@
 .dark-mode .temp-toggle2:hover {
   background-color: #c4e0f3 !important;
 }
+.dark-mode .p1{
+height: 600px !important;
+}
+
 
 @keyframes fadeIn {
   from {

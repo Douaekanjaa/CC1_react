@@ -11,7 +11,7 @@ export default function MyNav() {
 
   return (
     <>
-      <Navbar expand="lg" className={`mx-auto${darkMode ? ' dark-mode' : ''}`}>
+      <Navbar expand="lg" className={`w-100 mx-auto${darkMode ? ' dark-mode' : ''}`}>
         <LinkContainer to="/home">
           <Navbar.Brand>CC1</Navbar.Brand>
         </LinkContainer> 

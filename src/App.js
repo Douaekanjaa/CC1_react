@@ -11,6 +11,11 @@ import TodoList from './compenants/Todolist/TodoList';
 import Weather from './compenants/Weather/weather';
 import Slider from './compenants/Slider/Slider';
 
+
+
+
+
+
 function App() {
   const { darkMode } = useTheme();
 

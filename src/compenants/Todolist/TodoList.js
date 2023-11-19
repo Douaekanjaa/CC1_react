@@ -54,7 +54,7 @@ function TodoList() {
   };
 
   return (
-    <Container fluid className={`cool-todo-container${darkMode ? ' dark-mode' : ''}`}>
+    <Container  className={`cool-todo-container${darkMode ? ' dark-mode' : ''}`}>
       <div className='TodoList2'>
         <h1>To-Do List</h1>
       </div>

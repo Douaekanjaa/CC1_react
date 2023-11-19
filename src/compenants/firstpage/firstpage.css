@@ -1,0 +1,25 @@
+.fg{
+  height: 490px !important;
+  background-color:white !important;
+  color: #34495e;
+}
+
+.page1{
+    background-color:white !important;
+    color: #34495e;
+    box-shadow: none !important;
+    border: 0 !important;
+   
+}  
+
+
+
+
+.dark-mode{
+  background-color: #34495e !important;
+  color: white;
+}
+.dark-mode .card{
+  background-color: #597c9ed8 !important;
+  color: white;
+}

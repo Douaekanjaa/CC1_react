@@ -12,7 +12,7 @@ root.render(
   <BrowserRouter basename='/cc1_react'>
       <ThemeProvider>
         <App />
-      </ThemeProvider>
+    </ThemeProvider>
   </BrowserRouter>
 );
 
